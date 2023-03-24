@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(/ruvim-noga-o0R4iqk1eRQ-unsplash.jpg);
+}
+.container{
+width: 100%;
+height: 90vh;
+}
+
+ nav{
+     display: flex; 
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+.container-col{
+    flex: 1;
+    text-align: right;
+}
+.container-col ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.container-col ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 900;
+    font-family: sans-serif;
+    color: #fff;
+}
+.container-col nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #e9e4e3;
+    display: block;
+    margin: auto;
+}
+
+.container-col nav ul li a:hover::after{
+    width: 100%;
+}
+.section-line img{
+    width: 350px;
+    border-radius: 50%;
+    height: 350px;
+    margin-left: 1100px;   
+}
+.section-line h1{
+    color: #fff;
+    font-family: sans-serif;
+    margin-top: -225px;
+    margin-left: 50px;
+    font-size: 50px;
+}
+.section-line h4{
+    color: #fff;
+    font-family: sans-serif;
+    margin-left: 50px;
+    margin-top: -15px;
+    font-size: 50px;
+}
+.container-sol img{
+    width: 40vw;
+    height: 60vh;
+    margin-left: 500px;
+}
+.container-sol h1{
+      font-size: 30px;
+      margin-left: 700PX;
+      color: #000;
+}
+.container-sol button {
+    width: 200px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    margin-left: 700px;
+}
+.container-sol a{
+    color: black;
+    font-size: 30px;
+}
+.container-sol button:hover{
+    background-color: blue;
+}
+.container-sol .fa{
+    justify-content: center;
+ }
+.container-sol a{
+    text-decoration: none;
+}
+.container-sol h2{
+      font-size: 30px;
+      margin-left: 500PX;
+}
+.aim h1{
+    color: violet;
+    margin: 50px;
+    font-size: 50px;
+}
+.aim .intro a{
+    color: #000;
+    font-size: 30px;
+    text-decoration: none;
+}
+.intro{
+    width: 170px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: -30px;
+    border-radius: 50px;
+    border: none;
+}
+.intro:hover{
+    background: blue;
+}
+.footer{
+    background-color:  gray; 
+}
+.footer ul{
+     margin-left: 150px;
+     display: inline-block;
+     list-style: none; 
+     padding: 10px; 
+     color: #000;   
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;   
+}
+footer .font {
+    display:inline-flex;
+}
+footer .font i{
+    margin-left: 10px;
+}
+.font .instagram:hover{
+    color: palevioletred;    
+}
+.font .whatsapp:hover{
+    color: rgb(16, 170, 18);
+}
+.font .linkedin:hover{
+    color: rgb(73, 22, 169);
+}
+.font .twitter:hover{
+    color: rgb(33, 152, 185);
+}
+.font .facebook:hover{
+    color: rgb(15, 22, 209);
+}
+.font .youtube:hover{
+    color: rgb(210, 27, 27);
+}
+.font .google:hover{
+    color: rgb(226, 231, 231);
+}
+.copy{
+  width: 100%;
+  height: 10px;
+  background:transparent;
+}
+.copy h1 {
+    text-align: center;
+    font-size: 40px;
+}
